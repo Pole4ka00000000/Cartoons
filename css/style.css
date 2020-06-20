@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,600|Roboto:300,400,700');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+
+
+
+
+
+/* Header, footer */
+
+header, footer {
+  background-color: #010101;
+}
+
+/* Navbar */
+
+
+
+.navbar {
+  background-color: #010101;
+}
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+
+.nav-link, .dropdown-item {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+nav li {
+  padding: 0 18px;
+}
+
+nav li.active, nav li.active:before {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Social icons */
+footer i {
+  color: rgb(255, 255, 255);
+  padding: 0 12px;
+}
+
+/* Headings */
+
+h1, h3, h4, h5, h6 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 700;
+
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  background-color:  rgba(251, 255, 0, 0.11)
+}
+
+/* Paragraph */
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+main {
+  background-color: #FFFFF0;
+}
